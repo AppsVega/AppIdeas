@@ -6,7 +6,8 @@
 }
 
 body {
-  background: linear-gradient(#050932 70%, #1636d4) no-repeat;
+  background: url("https://t3.ftcdn.net/jpg/03/09/78/04/360_F_309780437_bztYRNRTMDZYw3tYMSvxY3taQcE7mJqE.jpg") no-repeat;
+  background-size: cover;
   margin: 0;
   display: flex;
   justify-content: center;
