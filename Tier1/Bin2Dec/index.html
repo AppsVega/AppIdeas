@@ -5,25 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bin2Dec</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <script src="script.js"></script>
   </head>
   <body>
     <main>
+      <a href="../../main/index.html"
+        ><span class="material-symbols-outlined"> undo </span></a
+      >
       <h1>Conversion Binary to Decimal</h1>
       <form>
         <label for="bin" class="block">Enter Binary Number</label>
         <input
           class="block"
-          type="number"
+          type="text"
           name="Nbin"
           id="bin"
           placeholder="010101010"
         />
-        <button class="block" id="Calculate" onclick="calculate()">
+        <button
+          type="button"
+          class="block"
+          id="Calculate"
+          onclick="calculate()"
+        >
           Calculate
         </button>
       </form>
-      <p id="result">Result:</p>
+      <p id="result"></p>
     </main>
   </body>
 </html>

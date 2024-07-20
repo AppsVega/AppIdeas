@@ -9,5 +9,3 @@ function calculate() {
   }
   document.getElementById("result").innerHTML = `Result: ${dec}`;
 }
-
-calculate();
